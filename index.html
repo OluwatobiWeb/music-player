@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music player</title>
+    <link rel="stylesheet" href="style.css" />
+<!-- <link rel="stylesheet" href="./fontawesome-free-6.4.0-webflash/css/all.min.css"> -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  </head>
+  <body>
+<div class="player">
+
+	<div class="details">
+	<div class="track-art">
+        <img src="image/img1.jpg" alt="">
+    </div>
+	<div class="track-name">We're All Alone</div>
+	<div class="track-artist">Dave</div>
+    
+        <h4 class="track-lyrics">
+</h4>
+
+    <div class="playlist">
+        <!-- <div class="playlist-2">
+        </div> -->
+    </div>
+
+	</div>
+
+
+    
+	<div class="slider_container">
+        <div class="current-time">00:00</div>
+        <input type="range" min="1" max="100"
+		value="0" class="seek_slider">
+        <div class="total-duration">00:00</div>
+	</div>
+    
+    <div class="buttons">
+
+        <div class="bar">
+        <i class="fas fa-bars" id="bars"></i>
+    </div>
+
+    <div class="prev-track">
+        <i class="fa fa-step-backward fa-2x"></i>
+    </div>
+
+    <div class="playpause-track" >
+        <i class="fa fa-play-circle fa-5x"></i>
+    </div>
+
+    <div class="next-track">
+        <i class="fa fa-step-forward fa-2x"></i>
+    </div>
+
+     <div class="bar">
+        <i class="far fa-comment-dots" id="dots"></i>
+    </div>
+
+    </div>
+
+	<div class="slider_container">
+        <!-- <div class="repeat">
+           <i class="fas fa-repeat" id="dots" class="repeats"></i>
+       </div> -->
+	<i class="fa fa-volume-down"></i>
+	<input type="range" min="1" max="100"
+		value="99" class="volume_slider" >
+	<i class="fa fa-volume-up"></i>
+	</div>
+</div>
+
+</body>
+</html>
+    <script src="app.js"></script>
+  </body>
+</html>
